@@ -4,7 +4,7 @@
 
 <video src="https://github.com/user-attachments/assets/605c1e49-50cd-4256-9a3c-9a5e659cbe63" />
 
-Official TongFlow plugin. End-to-end controlled character animation with
+Official [TongFlow](https://github.com/tong-io/tongflow) plugin. End-to-end controlled character animation with
 **SCAIL-2** ([zai-org/SCAIL-2](https://github.com/zai-org/SCAIL-2), Wan2.1-based),
 running on a GPU via [Modal](https://modal.com). Same two slots as
 `tongflow-modal-wan-animate`, so you can pick either backend.
