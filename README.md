@@ -1,5 +1,9 @@
 # tongflow-modal-scail2
 
+<img width="1458" height="817" alt="截屏2026-06-17 17 12 01" src="https://github.com/user-attachments/assets/dbe1aae2-49b6-4a86-b5d7-1a1b7ce4d7a2" />
+
+<video src="https://github.com/user-attachments/assets/605c1e49-50cd-4256-9a3c-9a5e659cbe63" />
+
 Official TongFlow plugin. End-to-end controlled character animation with
 **SCAIL-2** ([zai-org/SCAIL-2](https://github.com/zai-org/SCAIL-2), Wan2.1-based),
 running on a GPU via [Modal](https://modal.com). Same two slots as
