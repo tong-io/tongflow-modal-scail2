@@ -1,4 +1,9 @@
 {
+    "plugin": {
+        "name": "SCAIL-2",
+        "description": "End-to-end controlled character animation with SCAIL-2 (Wan2.1-based) via headless ComfyUI.",
+        "icon": "/plugins/tongflow-modal-scail2.svg"
+    },
     "env": [
         {
             "key": "MODAL_TOKEN_ID",
