@@ -77,7 +77,7 @@ image = (
         f"pip install -r {COMFY}/requirements.txt",
         *_clone_cmds,
     )
-    .pip_install("tongflow==0.2.16", "fastapi[standard]")
+    .pip_install("tongflow==0.2.20", "fastapi[standard]")
     .env({"PYTHONPATH": COMFY, "HF_HOME": "/models/hf"})
     # Mounted at runtime (copy defaults to False) so every deploy ships the latest
     # workflow.json. copy=True bakes it into an image layer that can cache stale.
