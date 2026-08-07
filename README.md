@@ -73,5 +73,5 @@ re-deploys when `deploy.py` changes. `workflow.json` is mounted at deploy time
   OOM on long/high-res clips; raise toward 20 if it does.
 - **`workflow.json` `#52` `attention_mode`** (`sdpa`): switch to `sageattn` for a
   speedup, but that requires installing sageattention in `deploy.py`'s image.
-- **`deploy.py` `scaledown_window`** (default 5s): raise it to keep the container
+- **`deploy.py` `scaledown_window`** (default 2s): raise it to keep the container
   warm between calls and skip cold-start model loading (idle GPU is still billed).
